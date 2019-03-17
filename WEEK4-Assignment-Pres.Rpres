@@ -1,0 +1,62 @@
+WEEK4-Assignment-Presentation
+========================================================
+author: Sharvari
+date: 3/15/2019
+autosize: true
+
+Overview
+========================================================
+
+This document displays Relationship of Population, Forest Area and Greenhouse gas emissions for all the countries in the world. 
+The data was taken from https://datacatalog.worldbank.org/dataset/world-development-indicators ranging from year 1996 - 2012. 
+The output shows a scatter plot per year where a 3rd dimension shows the size scale for the selected variable.
+
+The application allows the user to pick 3 indicators.
+The first input is for the X-axis, default value is Population density (per sq. km )
+The second input is for the Y-axis, default value is Forest area (million sq. km)
+The 3rd input is the size scale, default value is Greenhouse gas emissions(million kt of CO2 equivalent).
+
+The following are the indicators included in the application.
+========================================================
+
+1: Forest area (% of land area)
+
+2: Forest area (million sq. km)
+
+3: Population density (per sq. km )
+
+4: Population in billions
+
+5: Rural population (billions)
+
+6: Rural population (% of total population)
+
+7: Urban population (billions)
+
+8: Urban population (% of total)
+
+9: Greenhouse gas emission(million kt of CO2 equivalent)
+
+My observations are based on data from 1996 to 2012 are given below:
+========================================================
+
+1:Forest Area and Rural population both are decreasing. 
+
+2:Total population density and Urban population both drive increase of Greenhouse gas emissions due to usage of vehicles and industrial pollution.
+
+3:Forests are known to absorb Greenhouse gas like CO2. So the forest area is inversely related to Greenhouse gas emissions.
+
+Link for souce code and data file is given below:
+https://github.com/SharvariPawar/Developing-Data-Products-Final-Assignment
+
+Here is the link for the app:
+https://sharvari.shinyapps.io/myapp/
+
+Slide With Code
+========================================================
+
+
+```{r, echo = FALSE}
+   knitr::include_graphics("interface.jpg")
+```
+
